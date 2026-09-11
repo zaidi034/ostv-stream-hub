@@ -1,0 +1,52 @@
+{
+  "name": "Movie",
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "story": {
+      "type": "string"
+    },
+    "poster_url": {
+      "type": "string"
+    },
+    "banner_url": {
+      "type": "string"
+    },
+    "trailer_url": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "runtime": {
+      "type": "number"
+    },
+    "language": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "source_id",
+    "title"
+  ]
+}

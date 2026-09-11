@@ -1,0 +1,31 @@
+{
+  "name": "Channel",
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "group_name": {
+      "type": "string"
+    },
+    "logo_url": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_id",
+    "name"
+  ]
+}

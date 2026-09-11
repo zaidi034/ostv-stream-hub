@@ -1,0 +1,41 @@
+{
+  "name": "Episode",
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "number"
+    },
+    "series_id": {
+      "type": "number"
+    },
+    "season_id": {
+      "type": "number"
+    },
+    "season_number": {
+      "type": "number"
+    },
+    "number": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "thumbnail_url": {
+      "type": "string"
+    },
+    "air_date": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "source_id",
+    "series_id",
+    "title"
+  ]
+}

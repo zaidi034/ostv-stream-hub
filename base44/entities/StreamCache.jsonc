@@ -1,0 +1,29 @@
+{
+  "name": "StreamCache",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "movie",
+        "episode",
+        "channel"
+      ]
+    },
+    "source_id": {
+      "type": "number"
+    },
+    "payload": {
+      "type": "string"
+    },
+    "fetched_at": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "type",
+    "source_id",
+    "payload",
+    "fetched_at"
+  ]
+}

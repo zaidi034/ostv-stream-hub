@@ -1,0 +1,63 @@
+{
+  "name": "Serie",
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "title_en": {
+      "type": "string"
+    },
+    "story": {
+      "type": "string"
+    },
+    "poster_url": {
+      "type": "string"
+    },
+    "trailer_url": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "episode_count": {
+      "type": "number"
+    },
+    "language": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "seasons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "season_source_id": {
+            "type": "number"
+          },
+          "season_number": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "poster_url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "source_id",
+    "title"
+  ]
+}
